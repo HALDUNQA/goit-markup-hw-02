@@ -55,9 +55,12 @@ h4 {
   color: white;
   background-color:var(--iris);
 }
-.submit:hover{
+.s:hover{
   cursor: pointer;
   color:yellow;
   background-color: var(--ocean);
+}
+.odev{
+  color: red;
 }
 
