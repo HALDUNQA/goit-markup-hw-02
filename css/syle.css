@@ -1,17 +1,16 @@
-
 :root {
-	--iris: #4d5ae5;
-	--ocean: #404bbf;
-	--navy-blue: #2e2f42;
-	--green: #31d0aa;
-	--slate: #434455;
-	--light-slate: #8e8f99;
-	--cornflower: #e7e9fc;
-	--cloud: #f4f4fd;
-	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-	--grey: rgba(46, 47, 66, 0.7);
-	--white: #fff;
-	--dairy: #fcfcfc;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
 
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
@@ -21,27 +20,25 @@ body {
   font-optical-sizing: auto;
   font-size: 16px;
   font-weight: regular;
-  line-height: 1,5;
+  line-height: 1, 5;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   color: rgba(17, 2, 2, 0.934);
 }
-.effective{
+.effective {
   color: white;
-  font-family: "Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: bold;
-  
+
   font-size: 56px;
 }
 
-
-
-.ourteam>ul>li> img {
+.ourteam > ul > li > img {
   width: 264px;
 }
 
-.portfolio>li> img{
+.portfolio > li > img {
   width: 360px;
 }
 
@@ -49,22 +46,17 @@ h2 {
   font-size: 16;
   font-style: italic;
 }
+
 h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: 700;
-  
 }
-
-
 .submit {
-  
   color: white;
-  background-color:var(--iris);
+  background-color: var(--iris);
 }
-.s:hover{
+.s:hover {
   cursor: pointer;
-  color:yellow;
+  color: yellow;
   background-color: var(--ocean);
 }
-
-
