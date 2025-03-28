@@ -26,12 +26,32 @@ body {
   color: rgba(17, 2, 2, 0.934);
 }
 .effective {
+  background-color: var(--navy-blue);
+  background-size:600px;
   color: white;
   font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: bold;
 
   font-size: 56px;
+}
+.effective-solutions{
+
+  font-family: "Roboto";
+  font: size 472px; ;
+  text-align: center;
+}
+.effective-button{
+  box-sizing: text-box;
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: center;
+  background-color: var(--iris);
+}
+.effective-button:hover,
+.effective-button:active{
+  background-color: var(--ocean);
 }
 
 .ourteam > ul > li > img {
