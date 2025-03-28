@@ -42,7 +42,8 @@ body {
   text-align: center;
 }
 .effective-button{
-  box-sizing: text-box;
+  width: 170px;
+  height: 51px;
   color: white;
   font-family: "Roboto";
   font-size: 16px;
