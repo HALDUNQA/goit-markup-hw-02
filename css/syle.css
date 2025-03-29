@@ -14,15 +14,11 @@
 
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
-
-  
-
 }
-
 
 body {
   font-family: "Roboto", sans-serif;
-  
+
   font-size: 16px;
   font-weight: regular;
   line-height: 1, 5;
@@ -31,27 +27,27 @@ body {
   color: rgba(17, 2, 2, 0.934);
 }
 
-.menu>li>a{
+.menu > li > a {
   text-decoration: none;
   font-family: var(--second-family);
   color: var(--navy-blue);
 }
-.menu>li>a:hover{
+.menu > li > a:hover {
   color: var(--ocean);
 }
-.studio>li/.studio :active{
+.studio > li/.studio :active {
   color: var(--ocean);
 }
-.address>a{
+.address > a {
   text-decoration: none;
   color: var(--navy-blue);
 }
-.address>a:hover{
-  color: #9747FF;
+.address > a:hover {
+  color: #9747ff;
 }
 .effective {
   background-color: var(--navy-blue);
-  background-size:600px;
+  background-size: 600px;
   color: white;
   font-family: "Roboto", sans-serif;
   line-height: 1;
@@ -59,13 +55,12 @@ body {
 
   font-size: 56px;
 }
-.effective-solutions{
-
+.effective-solutions {
   font-family: "Roboto";
-  font: size 472px; ;
+  font: size 472px;
   text-align: center;
 }
-.effective-button{
+.effective-button {
   width: 170px;
   height: 51px;
   color: white;
@@ -75,19 +70,20 @@ body {
   background-color: var(--iris);
 }
 .effective-button:hover,
-.effective-button:active{
+.effective-button:active {
   background-color: var(--ocean);
 }
 
-.team, .team-picture{
+.team,
+.team-picture {
   color: var(--navy-blue);
   size: 36px;
-text-align: center;}
+  text-align: center;
+}
 
 .ourteam > ul > li > img {
   width: 264px;
 }
-
 
 .portfolio > li > img {
   width: 360px;
@@ -95,7 +91,7 @@ text-align: center;}
 
 h2 {
   font-size: 16;
-  font-style:"Roboto";
+  font-style: "Roboto";
 }
 
 h4 {
@@ -112,25 +108,24 @@ h4 {
   color: yellow;
   background-color: var(--ocean);
 }
-.foot-section{
-  
+.foot-section {
   background-color: var(--navy-blue);
   background-size: 1400px;
   font-size: 16px;
   color: white;
 }
-.foot-section > a{
+.foot-section > a {
   box-sizing: border-box;
   margin-top: 300px;
-  
+
   margin-left: 156px;
   font-family: var(--Raleway);
-  text-decoration:none ;
+  text-decoration: none;
   color: white;
 }
-.foot-section > p{
+.foot-section > p {
   box-sizing: border-box;
- 
+
   margin-bottom: 50px;
   margin-left: 156px;
 }
